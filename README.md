@@ -36,6 +36,15 @@ $ npm install -g migrate-to-mod-cli
 migrate-go-mod -m <module> -i <input> -o <output>
 ```
 
-## LICENSE
+## Contrubitting
+
+This tool is written by `node.js` and `yarn`.
+
+To develop this tool, please run `yarn install` to install the dependencies,
+and make sure `yarn test` is passed.
+
+PR is welcome.
+
+## License
 
 MIT
