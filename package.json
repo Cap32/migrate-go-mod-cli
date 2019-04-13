@@ -11,6 +11,9 @@
     "bin/migrate-go-mod.js",
     "*.md"
   ],
+  "bin": {
+    "migrate-go-mod": "bin/migrate-go-mod.js"
+  },
   "engines": {
     "node": ">= 8"
   },
