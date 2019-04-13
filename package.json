@@ -1,0 +1,29 @@
+{
+  "name": "migrate-go-mod-cli",
+  "description": "cli tool for automatic migrating to go mod",
+  "version": "1.0.0",
+  "scripts": {
+    "pretest": "rimraf test/dist",
+    "test": "node test"
+  },
+  "main": "bin/migrate-go-mod.js",
+  "files": [
+    "bin/migrate-go-mod.js",
+    "*.md"
+  ],
+  "engines": {
+    "node": ">= 8"
+  },
+  "repository": "github.com/Cap32/migrate-go-mod-cli.git",
+  "author": "Cap32",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "globby": "^9.2.0",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3"
+  }
+}
